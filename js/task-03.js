@@ -21,7 +21,7 @@ document.querySelector(".gallery").append(
     const photo = document.createElement("img");
     photo.alt = alt;
     photo.src = url;
-    galleryItem.append(photo);
+    galleryItem.append(photo);    
     return galleryItem;
   })
 );
